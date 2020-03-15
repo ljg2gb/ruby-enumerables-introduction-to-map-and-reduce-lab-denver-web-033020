@@ -55,15 +55,10 @@ end
 
 
 def reduce_to_all_true(source_array)
-  source_array.include? false
-  i = 0 
-  while i < source_array.length do
-    if i == true
+  if source_array.include? false
+    return false
+  else
       true
-    else
-      false
-    end
-    i += 1
   end
 end
 
