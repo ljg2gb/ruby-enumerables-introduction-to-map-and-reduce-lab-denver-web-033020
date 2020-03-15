@@ -62,6 +62,7 @@ def reduce_to_all_true(source_array)
   end
 end
 
+
 def reduce_to_any_true(source_array)
   if source_array.has_value?(true)
     return true
