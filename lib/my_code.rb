@@ -53,3 +53,24 @@ def reduce_to_total( source_array , starting_point )
   total
 end
 
+
+def reduce_to_all_true( source_array , starting_point )
+  total = 0 
+  i = 0 
+  while i < source_array.length do
+    total += source_array[i]
+    i += 1
+  end
+  total
+end
+
+def reduce_to_any_true( source_array , starting_point )
+  total = 0 
+  i = 0 
+  while i < source_array.length do
+    total += source_array[i]
+    i += 1
+  end
+  total
+end
+
